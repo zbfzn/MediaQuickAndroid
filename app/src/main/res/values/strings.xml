@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MediaQuick</string>
+    <string name="please_input_share_info">请输入分享信息</string>
+    <string name="please_input_kuaishou_douyin_url">请输入抖音或快手分享链接</string>
+    <string name="please_input_parse_api">请输入解析Api</string>
+    <string name="start_download">开始下载</string>
+    <string name="android_q_and_higher_not_support_download_such_file">本App对安卓10及以上暂不支持该文件类型下载</string>
+    <string name="share_info_not_supported">很抱歉暂不支持该分享内容!</string>
+    <string name="parse_service_started">解析服务已启动</string>
+    <string name="parse_service_stopped">解析服务已停止</string>
+    <string name="operation_parse">解析</string>
+    <string name="operation_stop_service">停止服务</string>
+    <string name="operation_start_service">启动服务</string>
+    <string name="operation_start_douyin_app">启动抖音</string>
+    <string name="operation_start_kuaishou_app">启动快手</string>
+    <string name="operation_save">保存</string>
+
+</resources>
