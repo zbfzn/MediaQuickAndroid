@@ -14,6 +14,8 @@
 接口使用   [MediaQuickServer](https://github.com/zbfzn/MediaQuickServer)
 
 ## 使用
+小白：下载[MediaQuick-lateast](https://github.com/zbfzn/MediaQuickAndroid/releases/download/v0.6/MediaQuick-v0.6.apk) 版本直接安装使用  
+  
 首次进入需要设置解析接口地址，填入MediaQuickServer接口地址即可（例如：http://127.0.0.1:7899/media/quick/v1/media/parse）。  
 
 ## 注意
