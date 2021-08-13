@@ -18,6 +18,7 @@
   
 首次进入需要设置解析接口地址，填入MediaQuickServer接口地址即可（例如：http://127.0.0.1:7899/media/quick/v1/media/parse）。  
 
+#### 创作不易，给个star呗(✪ω✪)  
 ## 注意
 <font style="color: #ff0000">本软件仅供学习交流使用。 如用本程序于非法用途所导致的后果自负,与作者无关。</font>  
 
