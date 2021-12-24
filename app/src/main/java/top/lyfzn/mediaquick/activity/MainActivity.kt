@@ -21,9 +21,7 @@ import org.jetbrains.anko.stopService
 import org.jetbrains.anko.toast
 import top.lyfzn.mediaquick.App
 import top.lyfzn.mediaquick.R
-import top.lyfzn.mediaquick.api.ApiFactory
-import top.lyfzn.mediaquick.api.DouyinApi
-import top.lyfzn.mediaquick.api.KuaiShouApi
+import top.lyfzn.mediaquick.api.*
 import top.lyfzn.mediaquick.service.MediaParseService
 import top.lyfzn.mediaquick.service.ParseReceiver
 import top.lyfzn.mediaquick.service.ServiceExitRecevier
@@ -202,6 +200,8 @@ class MainActivity : AppCompatActivity() {
         // 添加API
         ApiFactory.addApi(DouyinApi())
         ApiFactory.addApi(KuaiShouApi())
+        ApiFactory.addApi(WeiBoApi())
+        ApiFactory.addApi(WangYiCloudApi())
         initEvent()
     }
 

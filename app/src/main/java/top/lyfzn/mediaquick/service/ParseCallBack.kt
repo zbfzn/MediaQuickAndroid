@@ -65,6 +65,8 @@ class ParseCallBack : Callback {
                 val type: String = when(data.getString("mediaApiType")) {
                     "douyin" -> "抖音"
                     "kuaishou" -> "快手"
+                    "weibo" -> "微博"
+                    "wangyicloud" -> "网易云音乐"
                     else -> "未知平台"
                 }
                 val media: JSONObject = data.getJSONObject("media")
